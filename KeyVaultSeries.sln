@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28016.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part3-GetSecretsInYourApp", "part 3 - get secret from Key Vault in your app\Part3-GetSecretsInYourApp.csproj", "{84EADF83-F8B3-4D9E-BB0B-1095E68BDC8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyVaultSeries.Core", "KeyVaultSeries.Core\KeyVaultSeries.Core.csproj", "{6C1D0779-4EA8-4089-8C70-AEFACF9F2C65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84EADF83-F8B3-4D9E-BB0B-1095E68BDC8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84EADF83-F8B3-4D9E-BB0B-1095E68BDC8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84EADF83-F8B3-4D9E-BB0B-1095E68BDC8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84EADF83-F8B3-4D9E-BB0B-1095E68BDC8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C1D0779-4EA8-4089-8C70-AEFACF9F2C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C1D0779-4EA8-4089-8C70-AEFACF9F2C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C1D0779-4EA8-4089-8C70-AEFACF9F2C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C1D0779-4EA8-4089-8C70-AEFACF9F2C65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {485AA45F-AEAA-49B2-AAFA-A70CE359B60C}
+	EndGlobalSection
+EndGlobal
