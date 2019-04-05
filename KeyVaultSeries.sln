@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyVaultSeries.Core", "KeyV
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part4-CertificateBasedAccess", "Part4-CertificateBasedAccess\Part4-CertificateBasedAccess.csproj", "{412EDDC0-4D27-4F44-B0C6-9BC8AAA940F8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Part5-AccessViaAzureWebApps", "Part5-AccessViaAzureWebApps\Part5-AccessViaAzureWebApps.csproj", "{A4189C20-96EC-49BC-8058-C4D9F372BB24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{412EDDC0-4D27-4F44-B0C6-9BC8AAA940F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{412EDDC0-4D27-4F44-B0C6-9BC8AAA940F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{412EDDC0-4D27-4F44-B0C6-9BC8AAA940F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4189C20-96EC-49BC-8058-C4D9F372BB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4189C20-96EC-49BC-8058-C4D9F372BB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4189C20-96EC-49BC-8058-C4D9F372BB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4189C20-96EC-49BC-8058-C4D9F372BB24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
