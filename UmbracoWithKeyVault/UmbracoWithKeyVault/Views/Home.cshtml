@@ -1,0 +1,18 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<UmbracoWithKeyVault.Core.Models.HomeModelWithSecrets>
+@{
+    Layout = null;
+}
+<html>
+    <head>
+
+    </head>
+<body>
+    <h1>@Model.Content.Value("Name")</h1>
+<div>@Model.Content.Value("Body")</div>
+<ul>
+    <li>SomeSecretConnectionString: @Model.Secrets.SomeSecretConnectionString</li>
+    <li>SomeSecretValue: @Model.Secrets.SomeSecretValue</li>
+    <li>SomeSecretTokenToAnAmazingIntegration: @Model.Secrets.SomeSecretTokenToAnAmazingIntegration</li>
+</ul>
+</body>
+</html>
