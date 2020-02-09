@@ -3,16 +3,16 @@
     Layout = null;
 }
 <html>
-    <head>
-        <title>@Model.Content.Name</title>
-    </head>
+<head>
+    <title>@Model.Content.Name</title>
+</head>
 <body>
     <h1>@Model.Content.Value("Name")</h1>
-<div>@Model.Content.Value("Body")</div>
-<ul>
-    <li>SomeSecretConnectionString: @Model.Secrets.SomeSecretConnectionString</li>
-    <li>SomeSecretValue: @Model.Secrets.SomeSecretValue</li>
-    <li>SomeSecretTokenToAnAmazingIntegration: @Model.Secrets.SomeSecretTokenToAnAmazingIntegration</li>
-</ul>
+    <div>@Model.Content.Value("Body")</div>
+    <ul>
+        <li>SomeSecretConnectionString: @Model.Secrets.SomeSecretConnectionString</li>
+        <li>SomeSecretValue: @Model.Secrets.SomeSecretValue</li>
+        <li>SomeSecretTokenToAnAmazingIntegration: @Model.Secrets.SomeSecretTokenToAnAmazingIntegration</li>
+    </ul>
 </body>
 </html>

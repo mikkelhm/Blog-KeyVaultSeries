@@ -17,7 +17,10 @@ namespace UmbracoWithKeyVault.Core.Controllers
 
         public override ActionResult Index(ContentModel model)
         {
-            var secretModel = new HomeModelWithSecrets(model.Content) { Secrets = _secretSettings };
+            var secretModel = new HomeModelWithSecrets(model.Content)
+            {
+                Secrets = _secretSettings
+            };
             return CurrentTemplate(secretModel);
         }
     }
