@@ -1,4 +1,5 @@
-﻿using Umbraco.Core;
+﻿using System.Configuration;
+using Umbraco.Core;
 using Umbraco.Core.Composing;
 using UmbracoWithKeyVault.Core.Secrets;
 
@@ -14,12 +15,11 @@ namespace UmbracoWithKeyVault.Core.Composers
 
         private SecretSettings GetSecretSettings()
         {
-
             return new SecretSettings()
             {
-                SomeSecretConnectionString = "SomeSecretConnectionString",
-                SomeSecretValue = "SomeSecretValue",
-                SomeSecretTokenToAnAmazingIntegration = "SomeSecretTokenToAnAmazingIntegration"
+                SomeSecretConnectionString = ConfigurationManager.AppSettings["SomeSecretConnectionString"],
+                SomeSecretValue = ConfigurationManager.AppSettings["SomeSecretValue"],
+                SomeSecretTokenToAnAmazingIntegration = ConfigurationManager.AppSettings["SomeSecretTokenToAnAmazingIntegration"]
             };
         }
     }
